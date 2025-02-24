@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,td,th{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <thead>  <!-- me i grupu taget qe jon per headings-->
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        
+         <tbody>  <!--me i grupu taget qe jon per body-->
+            <tr>  <!-- the perdorim per Headings-->
+                <td>Suela</td>
+                <td>Hasani</td>
+                <td>15</td>
+                <td>admin@admin.com</td>
+            </tr>
+
+            <tr> <!-- Rreshta-->
+                <td>Suela</td>
+                <td>Hasani</td>
+                <td>15</td>
+                <td>admin@admin.com</td>
+            </tr>
+         </tbody>
+        
+         <tfoot>  <!-- me grupu contentin e footer-->
+            <tr>
+                <td colspan="4">Table Footer</td>
+            </tr>
+         </tfoot>
+
+         <br><br>
+         
+         <table>
+            <tr> 
+                <th>Name:</th>
+                <td>John Doe</td> 
+                <td>Suela</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Email:</th>
+                <td>john@gmail.com</td>
+                <td rowspan="2">suela@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>3@gmail.com</td>
+            </tr>
+         </table>
+        
+
+    </table>
+</body>
+</html>
