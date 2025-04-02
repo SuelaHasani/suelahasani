@@ -1,0 +1,30 @@
+/* p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+} */
+
+/* p{
+    margin: 100px 80px 100px 150px;
+} */
+
+/* p{
+    margin: 100px;
+} */
+
+/* p{
+    margin: 25px 50px 75px;
+} */
+
+
+div{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+div{
+    padding: 100px 80px 100px 150px;
+}
