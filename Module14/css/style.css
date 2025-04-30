@@ -68,3 +68,7 @@ h1::before{
 h1::after{
     content: url("../image.jpg");
 }
+
+.p5{
+    opacity: 0.5;
+}
