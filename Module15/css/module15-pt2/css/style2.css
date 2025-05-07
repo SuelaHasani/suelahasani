@@ -106,9 +106,33 @@ body{
     content: "";
     display: table;
     clear: both;
-
 }
 
+#vertical-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
 
+#vertical-menu li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
 
+#vertical-menu li a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#vertical-menu li a.hover:not(.active){
+    background-color: #555;
+    color: white;
+}
 
