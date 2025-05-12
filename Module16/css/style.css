@@ -19,3 +19,48 @@ div.desc{
     text-align: center;
 }
 
+.sprite{
+    background: url("../images/houses.png") no-repeat;
+}
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    /* background-position: 0 0; */
+    background-position: -500px -500px; 
+}
+
+a[href="https://digitalschool.eu/"]{
+    color: blue;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+div[ id~="ds"]{
+    background-color: green;
+    color: white;
+    padding: 20px;
+}
+
+img[title^="2"]{
+    border: 2px solid blue;
+}
+
+h1[class|=heading]{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder="name"]{
+    border: 2px solid red;
+}
+
+input[readonly]{
+    border: 2px solid blue;
+}
