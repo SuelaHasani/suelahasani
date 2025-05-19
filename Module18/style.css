@@ -1,0 +1,128 @@
+#translate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    transform: translate(100px,50px);
+    padding: 10px;
+}
+
+#rotate {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    transform: rotate(90deg);
+}
+
+#scale {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 150px;
+    transform: scale(2,2);
+}
+
+#scaleX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-left: 250px;
+    transform: scaleX(3);
+}
+
+#scaleY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin-top: 250px;
+    transform: scaleY(3);
+}
+
+#skewX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: skewX(-40deg);
+}
+
+#skewY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: skewY(40deg);
+}
+
+
+
+#rotateX {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: rotateX(130deg);
+}
+
+#rotateY {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: rotateY(130deg);
+}
+
+#rotateZ {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00014e;
+    padding: 10px;
+    margin: 100px;
+    transform: rotateZ(130deg);
+}
+
+
+
+#transition {
+     width: 200px;
+     height: 200px;
+     background: red;
+     transition: background 3s, border-radius 5s;
+     transition-timing-function: linear;
+     transition-delay: 2s;
+}
+#transition:hover {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+
+
+
