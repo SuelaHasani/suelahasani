@@ -144,7 +144,61 @@ input [type="text"], input [type="email"], textarea{
 }
 
 .textarea{
-    width: 20px;
+    width: 200px;
     height: 100%;
     padding: 24px;
 }
+
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+
+input[type="submit"]{
+    background-color: #30bae7;
+    border: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+.big-button{
+    padding: 25px 85px;
+    color: wheat;
+}
+
+footer{
+    background-color: #344b8e;
+}
+
+.footer-links{
+    max-width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul{
+    margin: 8px;
+    padding-top: 25px;
+    padding-bottom: 75px;
+    display: flex;
+}
+
+.footer-links ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+ }
+
+ .footer-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+ }
+
+ header img{
+    width: 117px;
+    height: 37px;
+ }
