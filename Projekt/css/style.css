@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: unset;
+}
+
+body{
+    background-color: rgb(116, 80, 133);
+    height: 40px;
+    margin-top: 0;
+    padding: 10px 30px;
+    margin: 5px;
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: underline;
+}
+
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#rrethmeje{
+    background-color: rgb(90, 44, 133);
+}
+
+#projektet{
+    background-color: rgb(50, 50, 143);
+}
+
+#kontakt{
+    background-color: rgb(44, 82, 82);
+}
+
+.navbar .line{
+    background-color: rgb(181, 110, 202);
+    text-transform: uppercase;
+    background: fixed;
+    padding: 20px;
+    margin: 1%;
+    margin-right: 1350px;
+}
