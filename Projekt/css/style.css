@@ -69,6 +69,21 @@ body{
 
 img{
     border: 2px solid darkblue;
-    width: 200px;
-    height: 130px;
+    width: 400px;
+    height: 330px;
+}
+
+p{
+    padding: 8px;
+}
+
+input{
+    background-position: 30px;
+    margin-left: 600px;
+    margin-right: 500px;
+}
+
+button{
+    margin-left: 800px;
+    margin-right: 700px;
 }
