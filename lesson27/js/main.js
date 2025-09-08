@@ -48,12 +48,51 @@ function dsFunction() {
 
 dsFunction();
 
+
+function toFunction(gjatesia, lartesia) {
+    return 0.5 * gjatesia * lartesia;
+
+}
+
+console.log(toFunction(3,6));
+
+
+
 // Objektet
 
 var car = {
     name : "Mercedes",
     color : "Red",
-    year : 2020
+    year : 2020,
+
+    startEngine : function() {
+        alert("Vrooommmm!");
+    },
+    get getName() {
+        return this.name;
+    },
+    set setName (name) {
+        this.name = name;
+    }
 };
 
 console.log(car.name);
+console.log(car.color);
+car.startEngine();
+
+console.log(car.getName);
+
+car.setName = "BMW";
+
+console.log(car.getName);
+
+
+var person = {
+    name: "name",
+    age: 16,
+    nationality: "Kosove",
+
+    talk : function() {
+        alert();
+    }
+}
