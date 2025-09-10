@@ -96,3 +96,13 @@ var person = {
         alert();
     }
 }
+
+
+function Computer(name, CPU , RAM ,GPU) {
+    this.name=name;
+    this.CPU=CPU;
+    this.RAM=RAM;
+    this.GPU=GPU;
+}
+
+var computer1= new Computer("MacBook", "M1 8-core" , "8GB" , "GPU");
