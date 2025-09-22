@@ -21,6 +21,6 @@ var text2 = document.getElementById('text2_id');
 
 
 button2.onclick = function() {
-    text.innerHTML = input.value;
+    text.innerHTML = input2.value;
 }
 
