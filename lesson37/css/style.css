@@ -1,0 +1,35 @@
+ul#sort li{
+    background-color: lightgray;
+    border-bottom: 15px;
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort {
+    padding: 0;
+}
+
+ul#sort1 li{
+    background-color: antiquewhite;
+    border-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort2 li{
+    background-color: antiquewhite;
+    border-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
+
+ul#sort3 li{
+    background-color: antiquewhite;
+    border-bottom: 15px;
+    padding: 15px;
+    color: white;
+    list-style-type: none;
+}
